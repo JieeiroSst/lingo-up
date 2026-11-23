@@ -66,3 +66,7 @@ cd backend
 pip install httpx pytest
 pytest
 ```
+
+
+# Deploy 
+- https://lingo-up-steel.vercel.app
