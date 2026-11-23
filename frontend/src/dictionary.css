@@ -1,0 +1,53 @@
+.dictionary-page{min-height:100vh;max-width:1440px;margin:0 auto;padding:0 6.1% 40px;background:#f7f8f5}
+.dictionary-topbar{max-width:1080px;margin:0 auto}
+.dictionary-back-link{margin-left:auto;color:#687864;text-decoration:none;font-size:11px}
+.dictionary-main{max-width:900px;margin:0 auto}
+.dictionary-page-heading{padding:42px 0 15px}
+.dictionary-page-heading h1{font-family:Manrope,sans-serif;font-size:36px;letter-spacing:-1.5px;margin:11px 0 5px}
+.dictionary-page-heading h1 span{color:#7d9c6a}
+.dictionary-page-heading p{margin:0;color:#7a8175;font-size:12px}
+.dictionary-page-search{background:#fff;margin-top:12px}
+.dictionary-success{margin:9px 0 0;padding:8px 10px;background:#edf2e9;color:#5d7656;font-size:10px}
+.word-list-section{margin-top:27px}
+.word-list-heading{display:flex;align-items:end;justify-content:space-between;margin-bottom:12px}
+.word-list-heading h2{font-family:Manrope,sans-serif;font-size:18px;margin:0}
+.word-list-heading p{font-size:9px;color:#8b9087;margin:4px 0 0}
+.word-list-heading select{border:1px solid var(--line);border-radius:3px;background:#fff;padding:8px 10px;color:#66715f;font:10px "DM Sans",sans-serif}
+.word-list-empty{border:1px dashed #dfe4dc;background:#fff;padding:20px;text-align:center;color:#858b81;font-size:10px}
+.word-list{display:flex;flex-direction:column;gap:8px}
+.word-card{display:grid;grid-template-columns:34px minmax(0,1fr) auto;align-items:start;gap:12px;padding:13px 15px;background:#fff;border:1px solid var(--line);border-radius:4px}
+.word-card-index{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#edf2e9;color:#71866e;font-size:9px}
+.word-card-content{min-width:0}
+.word-card-title{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.word-card-title h3{font-family:Manrope,sans-serif;font-size:14px;letter-spacing:-.25px;margin:1px 0}
+.word-level{margin-left:auto;font-size:8px;color:#92988f}
+.word-meaning{font-size:10px;color:#596154;margin:6px 0 0;line-height:1.55}
+.word-meaning-empty{font-size:9px;color:#9a9f95;margin:6px 0 0}
+.word-example{font-size:9px;font-style:italic;color:#91978d;margin:4px 0 0}
+.word-card-actions{display:flex;align-items:center;gap:6px}
+.word-card-actions button{border:0;border-radius:3px;padding:8px 10px;font-size:9px;font-weight:600;white-space:nowrap;cursor:pointer}
+.word-card-actions button:disabled{opacity:.55;cursor:not-allowed}
+.word-lookup-button{background:#edf2ea;color:#526b4c}
+.word-listen-button{background:#f0f3ed;color:#64775e}
+.word-practice-button{background:#526f57;color:#fff}
+.word-practice-button.is-listening{background:#f5e9e6;color:#a1544a}
+.word-practice-feedback{font-size:9px;line-height:1.5;color:#6c7f64;margin:7px 0 0}
+.more-definitions{margin-top:7px;font-size:9px;color:#71806a}
+.more-definitions summary{cursor:pointer}
+.more-definitions ul{padding-left:15px;color:#737b70;line-height:1.6}
+.word-pagination{display:flex;justify-content:center;align-items:center;gap:15px;padding:18px 0}
+.word-pagination button{border:1px solid var(--line);border-radius:3px;padding:8px 11px;background:#fff;color:#5d7058;font:9px "DM Sans",sans-serif;cursor:pointer}
+.word-pagination button:disabled{opacity:.45;cursor:not-allowed}
+.word-pagination span{font-size:9px;color:#858b81}
+.dictionary-page-note{max-width:900px;margin:17px auto 0;color:#92988f;font-size:9px;line-height:1.6}
+.dictionary-page-note a{color:#71846a}
+
+@media(max-width:650px){
+  .dictionary-page{padding:0 4% 28px}
+  .dictionary-page-heading{padding-top:30px}
+  .dictionary-page-heading h1{font-size:30px}
+  .dictionary-back-link{font-size:9px}
+  .word-card{grid-template-columns:28px minmax(0,1fr);gap:9px;padding:11px}
+  .word-card-actions{grid-column:2;flex-wrap:wrap}
+  .word-level{margin-left:0}
+}
